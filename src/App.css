@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.bg-maroon {
+  background-color: #9c0f05;
+}
+.bg-pink {
+  background-color: #e010b7;
+}
+
+.project-image {
+  height: 300px;
+  /* border-radius: 5%; */
+}
+
+.menu-page-bg {
+  height: 100vh !important;
+  background-image: linear-gradient(to left, #ffffff 75%, #464cac 25%);
+}
+
+.name-itro {
+  font-size: 22px;
+  font-weight: bold;
+}
+.primary-color {
+  background-color: #464cac;
+}
+.primary-text-color {
+  color: #464cac;
+}
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.yellow-bg {
+  background-color: #ffd43a;
+}
+
+.yellow-text {
+  color: #ffd43a;
+}
+
+.intro-section {
+  height: 200px;
+}
+
+.btn:hover {
+  color: #fff !important;
+  text-decoration: none;
+  background-color: #ffd43a;
+}
+
+.about-header {
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+p {
+  text-align: justify;
+}
+.about-info {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.skill-size {
+  font-size: 0.8rem;
+}
+
+.fixed-icon {
+  position: -webkit-fixed !important; /* Safari & IE */
+  position: fixed !important;
+  z-index: 1 !important;
+}
+
+.menu-title {
+  font-size: 150px;
+}
+
+.menu-list {
+  font-size: 20px;
+}
+
+.border-line {
+  display: none;
+}
+
+.arrange-desktop {
+  display: block;
+}
+.arrange-mobile {
+  display: none;
+}
+
+.bg-dark {
+  background-color: #3c394a;
+}
+@media screen and (max-width: 480px) {
+  .nav-icon {
+    padding: 10px !important;
+  }
+  .icon-size {
+    font-size: 20px;
+  }
+  .nav-section {
+    width: 100vw !important;
+    padding-left: 0% !important;
+    margin-left: 0% !important;
+  }
+  .mobile-image-hide {
+    display: none !important;
+  }
+  .name-itro {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .actual-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .intro-width {
+    width: 100vw !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro-info {
+    text-align: justify;
+    font-size: 0.9rem !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .download-btn {
+    padding: 10px !important;
+    justify-content: center !important;
+    align-self: center;
+    display: flex;
+  }
+  .download-section {
+    width: 100vw !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .btn-font {
+    font-size: 0.8rem !important;
+  }
+
+  .about-section {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .skill-cards {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+
+  .about-header {
+    font-size: 0.8rem;
+  }
+
+  .skill-header {
+    font-size: 1.5rem;
+  }
+  .about-info {
+    font-size: 0.86rem;
+  }
+
+  .skill-card {
+    padding-left: 10px !important;
+    font-size: 0.5rem !important;
+    width: 130px !important;
+  }
+
+  .skill-size {
+    font-size: 0.5rem;
+    font-weight: 900;
+  }
+  .menu-page-bg {
+    height: 100vh !important;
+    background-image: linear-gradient(to top, #ffffff 88%, #464cac 10%);
+  }
+  .menu-mobile {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .menu-title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .border-line {
+    display: block;
+    border-bottom: #464cac !important;
+    border-width: 1px !important;
+    border-bottom-style: solid !important;
+  }
+  .arrange-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .arrange-desktop {
+    display: none;
+  }
+  .project-image {
+    height: 100px;
+  }
+
+  .project-card {
+    font-size: 0.86rem !important;
+  }
+
+  .about-m {
+    margin-top: 20px;
+  }
+
+  .contact-card {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .icon-mobile {
+    width: 20px !important;
+  }
+
+  .footer-menu {
+    font-size: 0.61rem !important;
+  }
+}
