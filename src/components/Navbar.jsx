@@ -13,7 +13,7 @@ const Navbar = ({ setCurrentPage, icon, name_bg, menu_bg }) => {
               " "
             }
           >
-            J.A
+            G.N.K
           </span>
         </Fade>
       </div>
