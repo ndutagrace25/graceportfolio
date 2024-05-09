@@ -1,12 +1,10 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import ts from "../images/Typescript_logo.png";
 
 const Skills = ({ skillsDivRef }) => {
   return (
-    <div
-      className="primary-color mt-5 p-5 about-section"
-      ref={skillsDivRef}
-    >
+    <div className="primary-color mt-5 p-5 about-section" ref={skillsDivRef}>
       <Fade bottom delay={500}>
         <div className="container-fluid pt-3 px-5" id="Skills">
           <h6 className="yellow-text fw-bold about-header">
@@ -40,8 +38,16 @@ const Skills = ({ skillsDivRef }) => {
               <div className="d-flex justify-content-center px-5 skill-cards">
                 <div className="d-flex justify-content-between  col-md-10 flex-wrap">
                   <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
+                    <i className="fab fa-node fa-2x"></i>
+                    <span className="ps-3 fw-bold skill-size">NODE JS</span>
+                  </div>
+                  <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
                     <i className="fab fa-react fa-2x"></i>
                     <span className="ps-3 fw-bold skill-size">REACT JS</span>
+                  </div>
+                  <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
+                    <img src={ts} alt="TS" width="30" />
+                    <span className="ps-3 fw-bold skill-size">TYPESCRIPT</span>
                   </div>
                   <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
                     <i className="fab fa-react fa-2x"></i>
@@ -49,18 +55,11 @@ const Skills = ({ skillsDivRef }) => {
                       REACT NATIVE
                     </span>
                   </div>
-                  <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
-                    <i className="fab fa-bootstrap fa-2x"></i>
-                    <span className="ps-3 fw-bold skill-size">Boostrap</span>
-                  </div>
                   <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card ">
-                    <i className="fab fa-css3 fa-2x"></i>
-                    <span className="ps-3 fw-bold skill-size">CSS3</span>
+                    <i className="fab fa-docker fa-2x"></i>
+                    <span className="ps-3 fw-bold skill-size">DOCKER</span>
                   </div>
-                  <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
-                    <i className="fab fa-node fa-2x"></i>
-                    <span className="ps-3 fw-bold skill-size">NODE JS</span>
-                  </div>
+
                   <div className="text-uppercase bg-white shadow rounded p-4 col-md-5 mb-3 d-flex align-items-center skill-card">
                     <i className="fab fa-js-square fa-2x"></i>
                     <span className="ps-3 fw-bold skill-size">JAVASCRIPT</span>

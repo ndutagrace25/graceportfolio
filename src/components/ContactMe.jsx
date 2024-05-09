@@ -24,23 +24,23 @@ const ContactMe = ({ contactDivRef, scrollToDiv }) => {
             <a
               className="d-flex flex-row align-items-center"
               style={{ cursor: "pointer" }}
-              href="mailto: mmbonojoan@gmail.com"
+              href="mailto: ndutagrace25@gmail.com"
             >
               <i className="fa-regular fa-envelope fa-lg primary-text-color"></i>
-              <div className="ps-3 fw-bold">mmbonojoan@gmail.com</div>
+              <div className="ps-3 fw-bold">ndutagrace25@gmail.com</div>
             </a>
             <a
               className="d-flex flex-row align-items-center py-3"
               style={{ cursor: "pointer" }}
-              href="tel:+254718149079"
+              href="tel:+2547088807403"
             >
               <i className="fa-regular fa-message fa-lg primary-text-color"></i>
-              <div className="ps-3 fw-bold">+254 718 149 079</div>
+              <div className="ps-3 fw-bold">+254 708 807 403</div>
             </a>
             <a
               className="d-flex flex-row align-items-center pb-3"
               style={{ cursor: "pointer" }}
-              href="https://www.linkedin.com/in/joan-aluka/"
+              href="https://www.linkedin.com/in/grace-kigaa-2705b212b"
               target="_blank"
               rel="noreferrer"
             >
@@ -52,7 +52,7 @@ const ContactMe = ({ contactDivRef, scrollToDiv }) => {
               style={{ cursor: "pointer" }}
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/joannealuka"
+              href="https://github.com/ndutagrace25"
             >
               <i className="fa-brands fa-square-github fa-lg primary-text-color"></i>
               <div className="ps-3 fw-bold">Github</div>

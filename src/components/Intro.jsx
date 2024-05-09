@@ -23,7 +23,7 @@ const Intro = () => {
                 <Zoom left delay={425}>
                   <div>
                     <p className="fs-4 intro-info">
-                      Hello, and thank you for visiting my portfolio. I'm a
+                      And thank you for visiting my portfolio. I'm a
                       seasoned{" "}
                       <span className="fw-bold">Senior Software Engineer</span>{" "}
                       with <span className="fw-bold">7+ years</span> of
