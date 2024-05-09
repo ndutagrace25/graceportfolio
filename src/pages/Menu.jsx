@@ -9,10 +9,10 @@ const Menu = ({ scrollToDiv }) => {
           <a
             className="d-flex flex-row align-items-center"
             style={{ cursor: "pointer" }}
-            href="mailto: mmbonojoan@gmail.com"
+            href="mailto: ndutagrace25@gmail.com"
           >
             <i className="fa-regular fa-envelope fa-lg primary-text-color"></i>
-            <div className="ps-3 fw-bold">mmbonojoan@gmail.com</div>
+            <div className="ps-3 fw-bold">ndutagrace25@gmail.com</div>
           </a>
           <a
             className="d-flex flex-row align-items-center py-3"
@@ -112,10 +112,10 @@ const Menu = ({ scrollToDiv }) => {
           <a
             className="d-flex flex-row align-items-center"
             style={{ cursor: "pointer" }}
-            href="mailto: mmbonojoan@gmail.com"
+            href="mailto: ndutagrace25@gmail.com"
           >
             <i className="fa-regular fa-envelope fa-lg primary-text-color"></i>
-            <div className="ps-3 fw-bold">mmbonojoan@gmail.com</div>
+            <div className="ps-3 fw-bold">ndutagrace25@gmail.com</div>
           </a>
           <a
             className="d-flex flex-row align-items-center py-3"
