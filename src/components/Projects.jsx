@@ -93,9 +93,9 @@ const Projects = ({ projectsDivRef }) => {
                   <i className="fab fa-node fa-2x"></i>
                   <img src={ts} alt="TS" width="20" />
                 </div>
-                <div className="fw-bold text-uppercase">
+                {/* <div className="fw-bold text-uppercase">
                   <span className="mx-3">Request Demo</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>
@@ -176,9 +176,9 @@ const Projects = ({ projectsDivRef }) => {
                   <i className="fab fa-node fa-2x"></i>
                   <img src={ts} alt="TS" width="20" />
                 </div>
-                <div className="fw-bold text-uppercase">
+                {/* <div className="fw-bold text-uppercase">
                   <span className="mx-3">Request Demo</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>
