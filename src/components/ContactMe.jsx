@@ -16,7 +16,7 @@ const ContactMe = ({ contactDivRef, scrollToDiv }) => {
           <div className="col-md-5 mt-3">
             <p>
               I'm currently available for work, so if you'd like to discuss any
-              projects or potential collaborations, you can reach me though any
+              projects or potential collaborations, you can reach me through any
               of the available contact information.
             </p>
           </div>
