@@ -53,7 +53,8 @@ const Home = () => {
 
   return (
     <div className="main-container">
-      {currentPage === "Menu" ? (
+      Coming Soon....
+      {/* {currentPage === "Menu" ? (
         <Fade top delay={255}>
           <div className="menu-page-bg primary-color">
             <div className="container-fluid">
@@ -85,7 +86,7 @@ const Home = () => {
           <AboutMe aboutDivRef={aboutDivRef} />
           <ContactMe contactDivRef={contactDivRef} scrollToDiv={scrollToDiv} />
         </div>
-      )}
+      )} */}
     </div>
   );
 };
