@@ -52,8 +52,8 @@ const Home = () => {
   }, [currentPage, activeDiv]);
 
   return (
-    <div className="main-container">
-      Coming Soon....
+    <div className="main-container d-flex justify-content-center mt-5">
+      OOPS!!! This domain is no longer in use
       {/* {currentPage === "Menu" ? (
         <Fade top delay={255}>
           <div className="menu-page-bg primary-color">
