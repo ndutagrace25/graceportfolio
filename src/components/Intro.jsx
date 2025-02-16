@@ -26,7 +26,7 @@ const Intro = () => {
                       And thank you for visiting my portfolio. I'm a
                       seasoned{" "}
                       <span className="fw-bold">Senior Software Engineer</span>{" "}
-                      with <span className="fw-bold">7+ years</span> of
+                      with <span className="fw-bold">8+ years</span> of
                       experience with a passion for crafting robust and
                       innovative solutions using cutting-edge technologies. With
                       a focus on Node.js, React.js, React Native, and
